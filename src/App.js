@@ -8,7 +8,7 @@ import Footer from './Component/Footer';
 function App() {
   return (
     <div className="App">
- <Router>
+ <Router basename="/Task23">
    <NavBar/>
  <Routing/>
  <Footer/>
