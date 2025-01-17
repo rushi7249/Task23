@@ -1,0 +1,32 @@
+/* Home Component Styles */
+.Home {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    height: 75vh;
+}
+
+/* Section Styles */
+.div1, .div2 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.div1 h3, .div2 h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Lists */
+ol, ul {
+    list-style-position: inside;
+    line-height: 1.6;
+}
+
+.div2 ul li b {
+    color: #444;
+}
